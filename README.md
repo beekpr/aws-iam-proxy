@@ -17,4 +17,4 @@ The preferred way to run this proxy is via docker. The following evironment vari
 
 E.g.:
 
-docker run -it -e AWS_ACCESS_KEY_ID=<aws_access_key> -e AWS_SECRET_ACCESS_KEY=<aws_secret_key> -p 9200:9200 beekeeper/aws-iam-proxy "<aws_search_url>"
+docker run -it -e AWS_ACCESS_KEY_ID=aws_access_key -e AWS_SECRET_ACCESS_KEY=aws_secret_key -p 9200:9200 bkpr/aws-iam-proxy "aws_search_url"
