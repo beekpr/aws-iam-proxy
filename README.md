@@ -1,4 +1,5 @@
-
+# Deprecated
+Moved to https://github.com/beekpr/aws-es-proxy
 
 # AWS-IAM-Proxy
 
